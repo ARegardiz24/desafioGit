@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 1rem;
+
+}
+
+header h1{
+    text-align: center;
+    font-family: Alfa Slab One'';
+    font-size: 3rem;
+    color: rgb(191, 146, 112);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+nav ul li{
+   background-color:rgb(255, 237, 219);
+   border-radius: 1rem;
+   padding: .6rem;
+   color:rgb(163, 97, 47);
+  
+}
+
+subtitle_top{
+    text-decoration-color: rgb(65, 145, 45);
+}
+.main_top{
+    display: grid;
+    grid-template-areas: "banner"
+                         "subtitle_top"
+                         "mv"
+                         "alimentos_section"
+                         "ropa_section"
+                         "juguetes_section"
+                         "footer_derechos";
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.banner{
+    grid-area: banner;
+    padding: 1rem;
+}
+
+.subtitle_top{
+    grid-area: subtitle_top;
+    padding: .4rem;
+    font-size: 1rem ;
+    background-color:rgb(255, 237, 219);
+    color: rgb(163, 97, 47);
+        
+}
+.mv{
+    grid-area: mv;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(163, 97, 47);
+}
+.alimentos_section{
+    grid-area: alimentos_section;
+    padding: 2rem;
+    text-align: center;
+    color:rgb(163, 97, 47);
+}
+.ropa_section{
+    grid-area: ropa_section ;
+    padding: 2rem;
+    text-align: center;
+    color:rgb(163, 97, 47);
+    
+}
+.juguetes_section{
+    grid-area: juguetes_section;
+    padding: 2rem;
+    text-align: center;
+    color:rgb(163, 97, 47);
+
+}
+.footer_derechos{
+    grid-area: footer_derechos;
+    padding: 2rem;
+    text-align: center;
+    color:rgb(163, 97, 47);  
+}
